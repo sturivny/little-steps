@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites tests="7" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-10-31T14:39:08" hostname="local-test-host">
+  <testsuite name="com.example.littlesteps.ExampleInstrumentedTest" tests="1" failures="0" errors="0" skipped="0" time="0.001" timestamp="2026-10-31T14:39:08" hostname="local-test-host">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="useAppContext" classname="com.example.littlesteps.ExampleInstrumentedTest" time="0.001" />
+  </testsuite>
+  <testsuite name="com.example.littlesteps.PersistenceTest" tests="1" failures="0" errors="0" skipped="0" time="0.016" timestamp="2026-10-31T14:39:08" hostname="local-test-host">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="entriesOrderAndArchiveSurviveReopening" classname="com.example.littlesteps.PersistenceTest" time="0.016" />
+  </testsuite>
+  <testsuite name="com.example.littlesteps.UiFlowTest" tests="5" failures="0" errors="0" skipped="0" time="29.308" timestamp="2026-10-31T14:39:08" hostname="local-test-host">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="dragOrderPersistsOnDrop" classname="com.example.littlesteps.UiFlowTest" time="4.439" />
+    <testcase name="createToggleAndRecreate" classname="com.example.littlesteps.UiFlowTest" time="5.688" />
+    <testcase name="languageChangesImmediatelyAndPersists" classname="com.example.littlesteps.UiFlowTest" time="4.522" />
+    <testcase name="advancedSettingsSaveGoalAndUnit" classname="com.example.littlesteps.UiFlowTest" time="8.704" />
+    <testcase name="measuredQuantityAndCalendarHistory" classname="com.example.littlesteps.UiFlowTest" time="5.955" />
+  </testsuite>
+</testsuites>
